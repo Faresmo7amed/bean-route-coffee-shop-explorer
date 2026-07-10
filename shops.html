@@ -1,0 +1,156 @@
+<!--
+    Some deprecated tags & attributes like (center, leftmargin, border, cellpadding, cellspacing) 
+    are used because there is no CSS at all in the document and I wanted to style and center some elements to make the page looks good
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Browse the full Bean Route directory of Cairo coffee shops.">
+        <meta name="author" content="Fares Mohamed">
+        <meta name="keywords" content="Coffe, Cafe, Coffee Shop, Bean, Beans, Coffe in Cairo">
+        <title>Bean Route | Shop Directory</title>
+        <link rel="icon" type="image/svg+xml" href="images/coffe-svgrepo-com.svg">
+    </head>
+    <body leftmargin="50px">
+        <!-- Header -->
+        <header>
+            <center>
+                <img src="images/coffe-svgrepo-com.svg" alt="Logo" width="70px">
+                <h1>Bean Route</h1>
+                <p>Chasing good coffee, one cup at a time.</p>
+            </center>
+            <hr>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shops.html">Shop Directory</a></li>
+                    <li><a href="shop-detail.html">Shop Profiles</a></li>
+                    <li><a href="brewing-guides.html">Brewing Guides</a></li>
+                    <li><a href="submit.html">Submit &amp; Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <!-- Directory Section -->
+            <section id="directory">
+                <center>
+                    <h2>Shop Directory</h2>
+                    <p>Every coffee shop we've visited and rated, in one place. Click a shop name for the full profile.</p>
+                    <table border="1px" cellpadding="10px" cellspacing="0px">
+                        <thead>
+                            <tr>
+                                <th scope="col">Shop Name</th>
+                                <th scope="col">Area</th>
+                                <th scope="col">Specialty</th>
+                                <th scope="col">Rating</th>
+                                <th scope="col">Price Range</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="shop-detail.html#cafe-latitude">Cafe Latitude</a></td>
+                                <td>Zamalek</td>
+                                <td>Flat White</td>
+                                <td>4.8 / 5</td>
+                                <td>$$</td>
+                            </tr>
+                            <tr>
+                                <td><a href="shop-detail.html#roast-and-co">Roast &amp; Co.</a></td>
+                                <td>Maadi</td>
+                                <td>Single-Origin Pour-Over</td>
+                                <td>4.6 / 5</td>
+                                <td>$$</td>
+                            </tr>
+                            <tr>
+                                <td><a href="shop-detail.html#brew-theory">Brew Theory</a></td>
+                                <td>Downtown</td>
+                                <td>Cold Brew</td>
+                                <td>4.5 / 5</td>
+                                <td>$</td>
+                            </tr>
+                            <tr>
+                                <td><a href="shop-detail.html#cairo-grind">Cairo Grind</a></td>
+                                <td>New Cairo</td>
+                                <td>Espresso Blends</td>
+                                <td>4.4 / 5</td>
+                                <td>$$$</td>
+                            </tr>
+                            <tr>
+                                <td><a href="shop-detail.html#the-daily-bean">The Daily Bean</a></td>
+                                <td>Giza</td>
+                                <td>Turkish Coffee</td>
+                                <td>4.7 / 5</td>
+                                <td>$</td>
+                            </tr>
+                            <tr>
+                                <td>Filter House</td>
+                                <td>Zamalek</td>
+                                <td>Chemex Pour-Over</td>
+                                <td>4.3 / 5</td>
+                                <td>$$</td>
+                            </tr>
+                            <tr>
+                                <td>Nomad Coffee Co.</td>
+                                <td>Maadi</td>
+                                <td>Oat Milk Lattes</td>
+                                <td>4.2 / 5</td>
+                                <td>$$</td>
+                            </tr>
+                            <tr>
+                                <td>Grind &amp; Grain</td>
+                                <td>Downtown</td>
+                                <td>Espresso Tonic</td>
+                                <td>4.1 / 5</td>
+                                <td>$</td>
+                            </tr>
+                            <tr>
+                                <td>The Roasting Room</td>
+                                <td>New Cairo</td>
+                                <td>House-Roasted Beans</td>
+                                <td>4.6 / 5</td>
+                                <td>$$$</td>
+                            </tr>
+                            <tr>
+                                <td>Quiet Corner Cafe</td>
+                                <td>Giza</td>
+                                <td>Slow Bar Service</td>
+                                <td>4.5 / 5</td>
+                                <td>$$</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="5">10 shops listed across Cairo.</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </center>
+            </section>
+            <hr>
+            <!-- Browse By Area Section -->
+            <section id="browse-by-area">
+                <h2>Browse by Area</h2>
+                <ul>
+                    <li>Zamalek</li>
+                    <li>Maadi</li>
+                    <li>Downtown</li>
+                    <li>New Cairo</li>
+                    <li>Giza</li>
+                </ul>
+            </section>
+        </main>
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <center>
+                <address>
+                    Bean Route HQ &mdash; <a href="mailto:support@beanroute.example">support@beanroute.example</a>
+                </address>
+                <p>&copy; 2026 Bean Route. All rights reserved.</p>
+            </center>
+        </footer>
+    </body>
+</html>

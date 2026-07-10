@@ -1,0 +1,174 @@
+<!--
+    Some deprecated tags & attributes like (center, leftmargin, border, cellpadding, cellspacing) 
+    are used because there is no CSS at all in the document and I wanted to style and center some elements to make the page looks good
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Browse the full Bean Route directory of Cairo coffee shops.">
+        <meta name="author" content="Fares Mohamed">
+        <meta name="keywords" content="Coffe, Cafe, Coffee Shop, Bean, Beans, Coffe in Cairo">
+        <title>Bean Route | Brewing Guides</title>
+        <link rel="icon" type="image/svg+xml" href="images/coffe-svgrepo-com.svg">
+    </head>
+    
+    <body leftmargin="50px">
+        <meta name="description" content="Step-by-step home brewing guides for pour-over, French press, and espresso.">
+        <!-- Header -->
+        <header>
+            <center>
+                <img src="images/coffe-svgrepo-com.svg" alt="Logo" width="70px">
+                <h1>Bean Route</h1>
+                <p>Chasing good coffee, one cup at a time.</p>
+            </center>
+            <hr>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shops.html">Shop Directory</a></li>
+                    <li><a href="shop-detail.html">Shop Profiles</a></li>
+                    <li><a href="brewing-guides.html">Brewing Guides</a></li>
+                    <li><a href="submit.html">Submit &amp; Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <h2>Brewing Guides</h2>
+            <p>Three reliable ways to make great coffee at home, from the simplest to the most technical.</p>
+            <!-- Pour Over Section -->
+            <section id="pour-over">
+                <h3>Pour-Over</h3>
+                <p>What You'll Need:</p>
+                <ul>
+                    <li>Pour-over dripper (V60 or Chemex)</li>
+                    <li>Paper filter</li>
+                    <li>Freshly ground coffee, medium-fine</li>
+                    <li>Gooseneck kettle</li>
+                    <li>Digital scale</li>
+                </ul>
+                <p>Steps:</p>
+                <ol>
+                    <li>Rinse the paper filter with hot water to remove papery taste.</li>
+                    <li>Add <strong>20g</strong> of ground coffee to the filter.</li>
+                    <li>Pour just enough water to saturate the grounds and wait <strong>30 seconds</strong> for the bloom.</li>
+                    <li>Slowly pour the remaining water in a circular motion over <strong>2&ndash;3 minutes</strong>.</li>
+                    <li>Let it fully drain, then serve immediately.</li>
+                </ol>
+                <figure>
+                    <video controls width="480" poster="https://picsum.photos/id/312/480/270">
+                        <source src="pour-over-demo.mp4" type="video/mp4">
+                        <source src="pour-over-demo.webm" type="video/webm">
+                        <p>Your browser doesn't support embedded video. <a href="pour-over-demo.mp4">Download the demo</a> instead.</p>
+                    </video>
+                    <figcaption>A full pour-over brew, start to finish.</figcaption>
+                </figure>
+            </section>
+            <hr>
+            <!-- Frnch Press Section -->
+            <section id="french-press">
+                <h3>French Press</h3>
+                <p>What You'll Need:</p>
+                <ul>
+                    <li>French press</li>
+                    <li>Coarsely ground coffee</li>
+                    <li>Kettle</li>
+                    <li>Timer</li>
+                </ul>
+                <p>Steps:</p>
+                <ol>
+                    <li>Add coarse coffee grounds to the empty press.</li>
+                    <li>Pour hot water evenly over the grounds and stir gently.</li>
+                    <li>Place the lid on top without pressing down, and steep for <strong>4 minutes</strong>.</li>
+                    <li>Press the plunger down slowly and evenly.</li>
+                    <li>Pour immediately to avoid over-extraction.</li>
+                </ol>
+                <figure>
+                    <video controls width="480" poster="https://picsum.photos/id/326/480/270">
+                        <source src="french-press-demo.mp4" type="video/mp4">
+                        <source src="french-press-demo.webm" type="video/webm">
+                        <p>Your browser doesn't support embedded video. <a href="french-press-demo.mp4">Download the demo</a> instead.</p>
+                    </video>
+                    <figcaption>Brewing a full French press, step by step.</figcaption>
+                </figure>
+            </section>
+            <hr>
+            <!-- Espresso Section -->
+            <section id="espresso">
+                <h3>Espresso</h3>
+                <p>What You'll Need:</p>
+                <ul>
+                    <li>Espresso machine</li>
+                    <li>Fine, evenly ground coffee</li>
+                    <li>Tamper</li>
+                    <li>Digital scale</li>
+                </ul>
+                <p>Steps:</p>
+                <ol>
+                    <li>Dose <strong>18g</strong> of finely ground coffee into the portafilter.</li>
+                    <li>Tamp evenly with firm, level pressure.</li>
+                    <li>Lock the portafilter in and start the shot immediately.</li>
+                    <li>Aim for a <strong>25&ndash;30 second</strong> extraction time.</li>
+                    <li>Stop the shot once you reach roughly double the dry weight in liquid.</li>
+                </ol>
+                <figure>
+                    <video controls width="480" poster="https://picsum.photos/id/431/480/270">
+                        <source src="espresso-demo.mp4" type="video/mp4">
+                        <source src="espresso-demo.webm" type="video/webm">
+                        <p>Your browser doesn't support embedded video. <a href="espresso-demo.mp4">Download the demo</a> instead.</p>
+                    </video>
+                    <figcaption>Pulling a proper espresso shot.</figcaption>
+                </figure>
+            </section>
+            <hr>
+            <!-- Comparison Section -->
+            <section id="comparison">
+                <center>
+                    <h3>Method Comparison</h3>
+                    <table border="1px" cellpadding="10px" cellspacing="0px">
+                        <thead>
+                            <tr>
+                                <th scope="col">Method</th>
+                                <th scope="col">Brew Time</th>
+                                <th scope="col">Best For</th>
+                                <th scope="col">Difficulty</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Pour-Over</th>
+                                <td>3&ndash;4 minutes</td>
+                                <td>Clean, bright single-origin flavors</td>
+                                <td>Medium</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">French Press</th>
+                                <td>4&ndash;5 minutes</td>
+                                <td>Full-bodied, rich cups</td>
+                                <td>Easy</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Espresso</th>
+                                <td>25&ndash;30 seconds</td>
+                                <td>Concentrated shots, milk-based drinks</td>
+                                <td>Hard</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </center>
+            </section>
+        </main>
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <center>
+                <address>
+                    Bean Route HQ &mdash; <a href="mailto:support@beanroute.example">support@beanroute.example</a>
+                </address>
+                <p>&copy; 2026 Bean Route. All rights reserved.</p>
+            </center>
+        </footer>
+    </body>
+</html>

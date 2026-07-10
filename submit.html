@@ -1,0 +1,153 @@
+<!--
+    Some deprecated tags & attributes like (center, leftmargin) 
+    are used because there is no CSS at all in the document and I wanted to style and center some elements to make the page looks good
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Submit a coffee shop to Bean Route or get in touch with the team.">
+        <meta name="author" content="Fares Mohamed">
+        <meta name="keywords" content="Coffe, Cafe, Coffee Shop, Bean, Beans, Coffe in Cairo">
+        <title>Bean Route | Submit a Coffee Shop</title>
+        <link rel="icon" type="image/svg+xml" href="images/coffe-svgrepo-com.svg">
+    </head>
+    <body leftmargin="50px">
+        <!-- Header -->
+        <header>
+            <center>
+                <img src="images/coffe-svgrepo-com.svg" alt="Logo" width="70px">
+                <h1>Bean Route</h1>
+                <p>Chasing good coffee, one cup at a time.</p>
+            </center>
+            <hr>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shops.html">Shop Directory</a></li>
+                    <li><a href="shop-detail.html">Shop Profiles</a></li>
+                    <li><a href="brewing-guides.html">Brewing Guides</a></li>
+                    <li><a href="submit.html">Submit &amp; Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <!-- Sumbit Shop Section -->
+            <section id="submit-shop">
+                <center>
+                    <h2>Submit a Coffee Shop</h2>
+                    <p>Know a great coffee shop we're missing? Tell us about it below.</p>
+                </center>
+                <form method="get" action="#">
+                    <fieldset>
+                        <legend>Shop Details</legend>
+                        <p>
+                            <label for="shop-name">Shop Name</label><br>
+                            <input type="text" id="shop-name" name="shop-name" required>
+                        </p>
+                        <p>
+                            <label for="shop-website">Website / Instagram</label><br>
+                            <input type="url" id="shop-website" name="shop-website" placeholder="https://instagram.com/shopname">
+                        </p>
+                        <p>
+                            <label for="shop-area">Area / Neighborhood</label><br>
+                            <input type="text" id="shop-area" name="shop-area" placeholder="e.g. Zamalek">
+                        </p>
+                        <p>
+                            <label for="price-range">Price Range</label><br>
+                            <select id="price-range" name="price-range">
+                                <option value="low">$</option>
+                                <option value="mid">$$</option>
+                                <option value="high">$$$</option>
+                            </select>
+                        </p>
+                        <p>Amenities</p>
+                        <p>
+                            <input type="checkbox" id="amenity-wifi" name="amenities" value="wifi">
+                            <label for="amenity-wifi">Wi-Fi</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="amenity-outdoor" name="amenities" value="outdoor">
+                            <label for="amenity-outdoor">Outdoor Seating</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="amenity-pet" name="amenities" value="pet-friendly">
+                            <label for="amenity-pet">Pet Friendly</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="amenity-parking" name="amenities" value="parking">
+                            <label for="amenity-parking">Parking</label>
+                        </p>
+                        <p>Best For</p>
+                        <p>
+                            <input type="radio" id="best-studying" name="best-for" value="studying">
+                            <label for="best-studying">Studying</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="best-meetings" name="best-for" value="meetings">
+                            <label for="best-meetings">Meetings</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="best-hangout" name="best-for" value="hangout">
+                            <label for="best-hangout">Casual Hangout</label>
+                        </p>
+                        <p>
+                            <label for="shop-why">Why do you recommend it?</label><br>
+                            <textarea id="shop-why" name="shop-why" rows="4" cols="40"></textarea>
+                        </p>
+                        <p>
+                            <label for="shop-photo">Upload a Photo</label><br>
+                            <input type="file" id="shop-photo" name="shop-photo" accept="image/*">
+                        </p>
+                    </fieldset>
+                    <p>
+                        <button type="submit">Submit Shop</button>
+                        <button type="reset">Clear Form</button>
+                    </p>
+                </form>
+            </section>
+            <hr>
+            <!-- Contact Section -->
+            <section id="contact">
+                <center>
+                    <h2>Contact Us</h2>
+                    <p>Questions, corrections, or just want to say hi? Send us a message.</p>
+                    <form method="get" action="#">
+                        <p>
+                            <label for="contact-email">Your Email</label><br>
+                            <input type="email" id="contact-email" name="contact-email" required>
+                        </p>
+                        <p>
+                            <label for="contact-message">Message</label><br>
+                            <textarea id="contact-message" name="contact-message" rows="4" cols="40" required></textarea>
+                        </p>
+                        <p>
+                            <button type="submit">Send Message</button>
+                        </p>
+                    </form>
+                    <address>
+                        Bean Route HQ &mdash; <a href="mailto:hello@beanroute.example">hello@beanroute.example</a>
+                    </address>
+                    <br>
+                    <iframe
+                        src="https://www.google.com/maps?q=Cairo+Egypt&output=embed"
+                        width="700" height="350" loading="lazy"
+                        title="Map showing the general location of Bean Route HQ in Cairo">
+                    </iframe>
+                </center>
+            </section>
+        </main>
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <center>
+                <address>
+                    Bean Route HQ &mdash; <a href="mailto:support@beanroute.example">support@beanroute.example</a>
+                </address>
+                <p>&copy; 2026 Bean Route. All rights reserved.</p>
+            </center>
+        </footer>
+    </body>
+</html>
