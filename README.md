@@ -1,5 +1,7 @@
 # Bean Route ☕
 
+🌐 **Live Demo:** https://bean-route-coffee-shop-explorer.pages.dev
+
 A multi-page coffee shop directory built using **pure HTML5**.
 
 The project presents a fictional coffee shop platform where users can browse a directory of Cairo coffee shops, read in-depth shop profiles, follow step-by-step home brewing guides, and submit a shop or get in touch through contact forms.
