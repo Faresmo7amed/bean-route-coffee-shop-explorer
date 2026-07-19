@@ -25,7 +25,7 @@ The goal of this project was to focus on:
 - Welcome section using text-formatting elements (`<strong>`, `<em>`, `<mark>`, `<small>`, `<del>`, `<ins>`)
 - Embedded HTML5 video with poster fallback
 - "This Week's Pick" featured shop with `<figure>`/`<figcaption>`
-- Customer `<blockquote>` with `<cite>`
+- Customer `<blockquote>` with ``
 - Quick links to every other page
 
 ### 📋 `shops.html` — Shop Directory
@@ -61,39 +61,27 @@ No external libraries, frameworks, CSS, or JavaScript were used.
 ## Semantic HTML Elements Practiced
 
 This project uses many HTML5 semantic and structural elements across its five pages:
-- `<header>`
-- `<nav>`
-- `<main>`
-- `<section>`
-- `<article>`
-- `<footer>`
-- `<figure>`
-- `<figcaption>`
-- `<video>`
-- `<iframe>`
+- `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
+- `<figure>`, `<figcaption>`
+- `<video>`, `<iframe>`
 - `<table>` / `<thead>` / `<tbody>` / `<tfoot>`
 - `<address>`
 - `<blockquote>` / `<cite>`
 - `<dl>`
-- `<form>`
-- `<fieldset>`
-- `<legend>`
+- `<form>`, `<fieldset>`, `<legend>`
 
 ## Notes
 
-Every page repeats the same `<header>`, `<nav>`, and `<footer>` structure by hand rather than through a template or component system, since no CSS or JavaScript was used. This was intentional, to practice keeping consistent site-wide structure across multiple standalone HTML files.
-
-Links between pages use relative paths, so all five HTML files must stay in the same folder for navigation to work correctly.
-
 This project intentionally uses some deprecated HTML tags and attributes:
-
-Examples:
-
 - `<center>`
 - `leftmargin`
 - `border`
 - `cellpadding`
 - `cellspacing`
+
+They were used because no CSS was involved in this project, and they helped with basic visual formatting. In modern web development, these should be replaced with CSS.
+
+Every page repeats the same `<header>`, `<nav>`, and `<footer>` structure by hand rather than through a template or component system, since no CSS or JavaScript was used. Links between pages use relative paths, so all five HTML files must stay in the same folder for navigation to work correctly.
 
 ## Project Purpose
 
